@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>Esquer Pets</title>
+    <link rel="stylesheet" href="survey.css">
+
+</head>
+<body>
+    <div>
+    <h1 id="title"><span id="esquer">esquer</span> <span id="pets">Pets</span></h1>
+    </div>
+    
+    <div>
+    <p id="description"> Your experience is important to us! 
+        Complete the survey below to let us know : </p>
+    </div>
+<div>
+    <form id="survey-form">
+
+        <div>
+        <h4 id="name-label">Hey Friend!</h4>
+        <input type="text" class="text-box" name="name" id="name" placeholder="What is your name?" required>
+        </div>
+
+        <div>
+        <h4 id="email-label">Let's stay connected!</h4>
+        <input type="email" class="text-box" name="email" id="email" placeholder="your@email.com" required>
+        </div>
+
+        <div>
+        <h4 id="number-label">How old is your pet?</h4>
+        <input type="number" class="text-box" name="number" id="number" min="0" max="20" placeholder="In human years!">
+        </div>
+
+        <div>
+        <h4>What kind of pet is it?</h4>
+        <select id="dropdown" name="" class="text-box" required>
+            <option>Dog / Puppy</option>
+            <option>Cat / Kitten</option>
+            <option>Lizard</option>
+            <option>Snake</option>
+            <option>Bunny</option>
+            <option>Guinea Pig</option>
+            <option>Other</option>
+        </select>
+        </div>
+
+        
+        <h4>How likely are you to recommend <span class="esquer">esquer</span><span class="pets">Pets</span> to a friend?</h4>
+        <div class="radio-text">
+        <label>
+            <input name="radio" value="yes" type="radio" class="input-radio">Of Course!
+        </label>
+        <label>
+            <input name="radio" value="maybe" type="radio" class="input-radio">You Bet I Will!
+        </label>
+        <label>
+            <input name="radio" value="not-sure" type="radio" class="input-radio">Not sure...
+        </label> 
+        </div>
+
+        <div class="checkbox">
+        <h4>Which of the following would you be most interested in?</h4>
+        <p>check all that apply :</p>
+        <label>
+            <input name="" value="jackets" type="checkbox" class="input-checkbox"> Fashionable Rain Jackets
+        </label>
+        <label>
+            <input name="" value="summer" type="checkbox" class="input-checkbox"> Cute Fresh Summer Clothing
+        </label>
+        <label>
+            <input name="" value="beds" type="checkbox" class="input-checkbox"> Stylish Beds
+        </label>
+        <label>
+            <input name="" value="furniture" type="checkbox" class="input-checkbox"> Modern Furniture
+        </label>
+        <label>
+            <input name="" value="leashes" type="checkbox" class="input-checkbox"> Everyday Durable Leashes and Collars
+        </label>
+        </div>
+
+        <div>
+        <h4> Any Comments?</h4>
+        <textarea id="comments" class="input-textarea" name="comments" placeholder="I'm glad you ask... " ></textarea>
+        </div>
+        <div>
+        <button type="submit" id="submit" class="submit-button">Done!</button>
+        </div>
+    
+    </form>
+</div>
+</body>
+<footer>
+
+</footer>
+</html>
